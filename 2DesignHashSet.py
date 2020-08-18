@@ -57,6 +57,4 @@ class MyHashSet:
 #obj.remove(2)
 #obj.contains(2) - False
 #print(obj.table)
-# obj.remove(key)
-# param_3 = obj.contains(key)
 
