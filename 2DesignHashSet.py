@@ -5,8 +5,8 @@
 #For example :- we define a hash table Hash =     [N,N,N,N,N] Hash Table size = 5
 #                                                  0 1 2 3 4
 #For adding,removing and searching we will calculate hash value i.e the position at which value will be added.
-#we will calcualte hash value[hv] of 2 HV = Value which you want to add * Size of Hash table = 2 % 5 = 2
-#so add 2 and 2nd Index hv = 3 % 5 = 3, hv = 7 % 5 = 2 - In this case we will append 7 and 2nd index [2,7]
+#we will calcualte hash value[hv] of 2 HV = Value which you want to add in hash table * Size of Hash table = 2 % 5 = 2
+#so add 2 on 2nd Index hv = 3 % 5 = 3, hv = 7 % 5 = 2 - In this case we will append 7 and 2nd index [2,7]
 
 class MyHashSet:
 
