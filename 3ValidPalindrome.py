@@ -4,9 +4,9 @@ class Solution(object):
         r = len(s) - 1
 
         while l < r:
-            while l < r and not s[l].isalnum():#Move forward if l<r and characters are not aplhanumeric from left side
+            while l < r and not s[l].isalnum():#Iterate from Left to Right with help of l = l + 1 if l<r and characters are not aplhanumeric.
                 l = l + 1
-            while l < r and not s[r].isalnum():#Move forward if l<r and characters are not aplhanumeric from right side
+            while l < r and not s[r].isalnum():#Iterate from Right to Left with help of r = r - 1 if l<r and characters are not aplhanumeric.
                 r = r - 1
 
             if s[l].upper() != s[r].upper():
