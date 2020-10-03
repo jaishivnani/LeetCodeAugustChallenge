@@ -23,7 +23,7 @@ class Solution:
 
 s1 = Solution('USA')
 
-print(s1.detectCapitalUse('USA'))
+print(s1.detectCapitalUse('India'))
 print(s1.detectCapitalUse('usa'))
 print(s1.detectCapitalUse('Usa'))
 print(s1.detectCapitalUse('UsA'))
